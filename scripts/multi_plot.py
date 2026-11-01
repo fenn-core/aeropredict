@@ -1,7 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# CSV files
 files = [
     "data/data0.csv",
     "data/data1.csv",
