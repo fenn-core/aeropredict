@@ -15,6 +15,7 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 add_executable(aeropredict src/main.cpp
         include/integrator.hpp
         include/aerodynamics.hpp
+        include/prediction.hpp
 )
 
 target_include_directories(aeropredict PRIVATE
